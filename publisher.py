@@ -4,7 +4,7 @@ from google.cloud import pubsub_v1
 #Providing project you are working in 
 PROJECT_ID = os.getenv("cedar-chemist-341514")
 #providing path of key we have created and downloaded
-credentials_path = "/Users/a845604yara.com/Documents/gcloud-practice/pubsub-cloudfunction/cedar-chemist-341514-1b7b579e88f1.json"
+credentials_path = "cedar-chemist-341514-1b7b579e88f1.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']= credentials_path
 publisher = pubsub_v1.PublisherClient()
 #providing pubsub topic path
