@@ -30,6 +30,7 @@ in subscriber.py
                    PROJECT_ID = os.getenv("PROJECT_NAME")
                    
 in terminal:
+
                1 gcloud functions deploy YOUR_FUNCTION_NAME --runtime python39 --trigger-topic YOUR_TOPIC_NAME
                 
                2 python publisher.py   
