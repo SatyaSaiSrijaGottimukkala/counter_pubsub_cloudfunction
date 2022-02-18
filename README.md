@@ -5,7 +5,13 @@ Clone the repository,
 
   git clone https://github.com/SatyaSaiSrijaGottimukkala/counter-pubsub-cloudfunction.git
   
-create a pubsub topic and respective subscriber through google cloud console
+create a pubsub topic and respective subscriber
+in terminal run the following commands:
+
+                gcloud pubsub topics create YOUR_TOPIC_NAME
+                
+                gcloud pubsub subscrptions create YOUR_SUBSCRIPTION_NAME --topic YOUR_TOPIC_NAME
+
 get your private key to publish message and to get subscriber messages
 
 
@@ -33,6 +39,7 @@ in subscriber.py
                    
 in 3 different terminals run the following commands:
 
+
                1 gcloud functions deploy YOUR_FUNCTION_NAME --runtime python39 --trigger-topic YOUR_TOPIC_NAME
                 
                2 python publisher.py   
@@ -44,5 +51,3 @@ in 3 different terminals run the following commands:
  2nd command => run your publisher script to publish a value to counter that triggers cloud function
  
  3rd command => run your subscriber script to subscribe to your pubsub topic to check counter values
- 
-      
