@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cedar-chemist-341514",
+  "private_key_id": "1b7b579e88f1d6cefb184280dd1e1b952b7945e7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCzybW4qsYHLK7d\nW6iSz9DmgonAUU/sDQJSM1Ky9C+4oCqs3L1GdLpvuEESAnFLWdstF4dGYuiV414b\nv9WNRblLi7dFgR51XSIZf7A6y36SyhP9T7kerNhMwO9doOkknv+Wz8mvaPEnDgrH\nOP5v/OVTGtY6C3i/GMYD87+D9fcOrzQfVk6xqffgI0z4t269ttr7i7TQNpP60N6m\njLATbP+s+Y5vUhRJ8EOAxoizkfATQgZw55XekQ8MxMQARnymDFIS3Lc0+4bChx2q\ndNpuItqsKQoOuf+GL9Vy85Ihrxx+8UWsIqgAWh2Ufd/0FpvZtl6+scxdqBuc1rlX\ncAFxxyijAgMBAAECggEADsaDArw2LhzD+jkwL3CY0Hjl7UJBeTrQeATzxPVAfsHa\n//3cKFArikbwQhSlTvYBh0EpwuUaDEd1Un5/hG64fbbrxvCHmkmfJc1SpGJY8qNc\n5TKKGjVGSXiJs34n6vSOOMy23I2ZVAZZaGoMrxNvnVbVSEvtDndwvp5nnOa3+SLV\noM/RHRjXA6ebAQNxy7zR88B1IeyiOIVjEJrPEZXs46Kjh3guXBX76CTyacAnZCpP\nUwICEELOzIdVa5rp44iMWfOFSHnDlwxoAlin11IlyiGiInAa2gRFTiQbLfoqSiCz\n/j1UKNLq1QYpTQCLNl5MXc+i3VNJOBGGqeg8fmn0MQKBgQDmpn+mloiSRVIknxz0\n97MZ4HC9aJgaUYdf1wjriCpOMN5GeHRiUhV8YNy+LjKYhen1nxT5u7QUlFciE5A3\nHYqw9B5c+7NlYVM0Bzr7UDHy4yCLBkxWi12JgQ0ASyrxZG2lolZq+hvHV3RQoFmQ\nDy46LQPeMsN5rQiE8XErY/KLVQKBgQDHjCmNuwaVllHW2mPfPiSQsUhdGie8n+UJ\nB7Oxs/6bWzzgoKjBEfrorNk5VEs61BVztzy+D23lflDU1TdLNzVM95Wbh/FWGZ8v\nwc3ff5HKlpVE8nU0JMkDTG1NxSa14QzK9g6q0Bo63RLD740f/u8PLNG8f/c9G3+N\n4MWXF7IUFwKBgHYnLJUF4AguAppH9+l1SgYjdx1QCzrQMOzjluow4psTZYnsApKr\nQd5pMCssNzbywprUV0Zm5ST1qH0IUIQrWfSz2SoAtjFk3d51Jb2/oxatSups24Yp\n9kyOEz7nQqRNse17b5F1de1z213CBp9JZ4DdtnGIx6H5Bbg0hqiXlpPRAoGAMuQS\nLO1HzpqZoJvt4J9un+A2vlfPTpHQza7DK0zmYCSyr+8JWsQFI5YBiFdxID26gtp2\niVpSArdmUgFWqr4Xv9tcsl/HMtgx+vIIWTmlqu8gfob/UR8YjNjO/4iKSNRueMys\nDPAp4F1FTecoLMLNoScjDlnsag87RqnOeqw2ZF0CgYBf4gI/whFXjuY6APGHAbvj\nWIHtCDv5JV3YQluZS3e1DWKaxHXyeRTbQ3uB/rWcVsiVBEHCQqec+RiJdZuXpKsh\nlG7z5RzIWc0UCnXFDmnFatKdyTyAZoeMhrZxMKj6grZXJzIzhr4F6izPnUHUuYbc\nCLrALVtpHqXgf6hKu1wcLA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "counter-service@cedar-chemist-341514.iam.gserviceaccount.com",
+  "client_id": "118046713525594877802",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/counter-service%40cedar-chemist-341514.iam.gserviceaccount.com"
+}

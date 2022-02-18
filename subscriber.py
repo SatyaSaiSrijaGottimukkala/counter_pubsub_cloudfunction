@@ -3,7 +3,7 @@ import json
 from google.cloud import pubsub_v1
 from concurrent.futures import TimeoutError
 PROJECT_ID = os.getenv("cedar-chemist-341514")
-credentials_path = "/Users/a845604yara.com/Documents/gcloud-practice/pubsub-cloudfunction/cedar-chemist-341514-1b7b579e88f1.json"
+credentials_path = "/Users/a845604yara.com/Documents/gcloud-practice/counter/example/counter_pubsub_cloudfunction/cedar-chemist-341514-1b7b579e88f1.json"
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']= credentials_path
 subscriber = pubsub_v1.SubscriberClient()
 subscription_path = 'projects/cedar-chemist-341514/subscriptions/responses'
