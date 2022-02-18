@@ -31,7 +31,7 @@ in subscriber.py
                    
                    PROJECT_ID = os.getenv("PROJECT_NAME")
                    
-in 3 differet terminals run the following commands:
+in 3 different terminals run the following commands:
 
                1 gcloud functions deploy YOUR_FUNCTION_NAME --runtime python39 --trigger-topic YOUR_TOPIC_NAME
                 
