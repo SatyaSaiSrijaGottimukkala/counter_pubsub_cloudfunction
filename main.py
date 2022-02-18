@@ -20,7 +20,7 @@ def counter (data,arg2):
                publish_future.result()
                return("message recived and published to pubsub",200)
           else:
-               print(f'cannot publish message data value provided (={data_value}) is not >1')
+               print(f'cannot publish message data value provided (={data_value-1}) is not >1')
                raise Exception (f'value is {data_value}')
      except Exception as e:
           print(e)
