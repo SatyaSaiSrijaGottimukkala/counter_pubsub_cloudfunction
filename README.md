@@ -16,6 +16,7 @@ in main.py,
                   topic_path = 'YOUR_TOPIC_PATH'
 
 in publisher.py, 
+
                    credentials_path = "PATH OF YOUR KEY"
                    
                    PROJECT_ID = os.getenv("PROJECT_NAME")
@@ -23,6 +24,7 @@ in publisher.py,
                    topic_path = 'YOUR_TOPIC_PATH' 
                  
 in subscriber.py 
+
                    subscription_path = 'YOUR_SUBSCRIPTION_PATH'
                    
                    credentials_path = "PATH OF YOUR KEY"
