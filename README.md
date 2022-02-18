@@ -6,6 +6,7 @@ Clone the repository,
   git clone https://github.com/SatyaSaiSrijaGottimukkala/counter-pubsub-cloudfunction.git
   
 create a pubsub topic and respective subscriber
+
 in terminal run the following commands:
 
                 gcloud pubsub topics create YOUR_TOPIC_NAME
