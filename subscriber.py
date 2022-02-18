@@ -1,4 +1,5 @@
 import os
+import json
 from google.cloud import pubsub_v1
 from concurrent.futures import TimeoutError
 PROJECT_ID = os.getenv("cedar-chemist-341514")
@@ -7,7 +8,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS']= credentials_path
 subscriber = pubsub_v1.SubscriberClient()
 subscription_path = 'projects/cedar-chemist-341514/subscriptions/responses'
 def callback(message):
-     print(f'counter : {message.data}')
+     print(json.loads(message.data))
      message.ack()
 
 streaming_future = subscriber.subscribe(subscription_path, callback= callback)
