@@ -3,7 +3,7 @@ create a cloudfunction trigger using pubsub send messages back to pubsub
 
 Clone the repository, 
 
-  git clone https://github.com/SatyaSaiSrijaGottimukkala/counter-pubsub-cloudfunction.git
+  git clone https://github.com/SatyaSaiSrijaGottimukkala/counter_pubsub_cloudfunction.git
   
 create a pubsub topic and respective subscriber
 
