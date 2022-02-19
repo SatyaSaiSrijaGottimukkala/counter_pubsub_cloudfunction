@@ -11,7 +11,7 @@ in terminal run the following commands:
 
                 gcloud pubsub topics create YOUR_TOPIC_NAME
                 
-                gcloud pubsub subscrptions create YOUR_SUBSCRIPTION_NAME --topic YOUR_TOPIC_NAME
+                gcloud pubsub subscriptions create YOUR_SUBSCRIPTION_NAME --topic YOUR_TOPIC_NAME
 
 get your private key to publish message and to get subscriber messages
 
