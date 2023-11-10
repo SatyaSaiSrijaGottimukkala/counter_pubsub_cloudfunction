@@ -1,0 +1,27 @@
+{
+  "tours": [
+    {
+      "name": "repo tour",
+      "steps": [
+        {
+          "name": "mainfile",
+          "description": "",
+          "path": "main.py",
+          "query": "4"
+        },
+        {
+          "name": "New step",
+          "description": "",
+          "path": "publisher.py",
+          "query": "6"
+        },
+        {
+          "name": "New step",
+          "description": "",
+          "path": "subscriber.py",
+          "query": "10"
+        }
+      ]
+    }
+  ]
+}
