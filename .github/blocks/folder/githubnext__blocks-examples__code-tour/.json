@@ -22,6 +22,35 @@
           "query": "10"
         }
       ]
+    },
+    {
+      "name": "repo tour",
+      "steps": [
+        {
+          "name": "New step",
+          "description": "",
+          "path": ".github/blocks/folder/githubnext__blocks-examples__code-tour/.json",
+          "query": ""
+        },
+        {
+          "name": "New step",
+          "description": "",
+          "path": "subscriber.py",
+          "query": "13"
+        },
+        {
+          "name": "New step",
+          "description": "",
+          "path": "publisher.py",
+          "query": "10"
+        },
+        {
+          "name": "check",
+          "description": "",
+          "path": ".github/blocks/folder/githubnext__blocks-examples__code-tour/.json",
+          "query": "9"
+        }
+      ]
     }
   ]
 }
